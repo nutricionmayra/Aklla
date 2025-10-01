@@ -1,18 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+// Muy importante: el "base" debe ser exactamente el nombre del repo en GitHub
 export default defineConfig({
   plugins: [react()],
-  server: {
-    port: 5173
-  },
-  build: {
-    outDir: 'dist'
-  }
+  base: '/Aklla/',   // 👈 nombre exacto del repo
 })
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-
-export default defineConfig({
-  plugins: [react()],
-  base: '/Aklla/', // 👈 muy importante (nombre exacto del repo en
