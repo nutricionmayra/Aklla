@@ -10,7 +10,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://TU-USUARIO.github.io/aklla-soap-formulator",
+  "homepage": ""https://nutricionmayra.github.io/Aklla"",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
